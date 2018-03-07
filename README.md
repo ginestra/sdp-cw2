@@ -7,10 +7,11 @@ SDP Coursework Two (Kotlin)
 
 This problem asks you to write and test two functions (perhaps with helper functions, as well):
 
-encipher(s, n)
+`encipher(s, n)`
+
 and
 
-decipher(s)
+`decipher(s)`
 
 ### encipher
 
