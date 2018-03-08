@@ -12,7 +12,7 @@ fun encipher(str: String, offset: Int): String {
     val isCapital = (charI in 65..90)
     if (isCapital || (charI in 97..122)) {
         charI -= if (isCapital) 65 else 97
-        charI = (charI + offset) % 25
+        charI = (charI + offset) % 26
         charI += if (isCapital) 65 else 97
         char = charI.toChar()
     }
