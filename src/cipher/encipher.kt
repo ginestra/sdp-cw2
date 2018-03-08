@@ -1,6 +1,10 @@
 package cipher
 
 fun encipher(str: String, offset: Int): String {
+    if (offset !in 0..25) {
+        throw IllegalArgumentException("offset must be between 0 and 25")
+    }
+
     var char = str.get(0)
     val builder = StringBuilder()
     var charI = char.toInt()
