@@ -17,7 +17,7 @@ and
 
 `encipher(s, n)` takes as input a string `s` and a non-negative integer `n` between 0 and 25. This function returns a new string in which the letters in `s` have been rotated by `n` characters.
 
-For this problem,you should assume that upper-case letters are "rotated" to upper-case letters, lower-case letters are "rotated" to lower-case letters, and all non-alphabetic characters are left unchanged. For example, if we were to shift the letter `y` by 3, we would get `b` and if we were to shift the letter `Y` by 3 we would get `B`.
+For this problem, you should assume that upper-case letters are "rotated" to upper-case letters, lower-case letters are "rotated" to lower-case letters, and all non-alphabetic characters are left unchanged. For example, if we were to shift the letter `y` by 3, we would get `b` and if we were to shift the letter `Y` by 3 we would get `B`.
 
 You can write `encipher` any way you like as long as you use recursive functions. You may wish to write a helper function that "rotates" a single character by `n` spots, wrapping around the alphabet as appropriate. Then, you might use this helper function to encipher your string. It’s up to you how you do this! (Remember: uppercase letters wrap should around the alphabet to uppercase letters, and lowercase letters wrap always to lowercase letters.)
 
