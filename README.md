@@ -1,7 +1,10 @@
 # sdp-cw2
 SDP Coursework Two (Kotlin)
 
-**Pair:** 4lun, gferra02
+**Pair:**
+
+* Alun Davey - adavey03
+* Ginestra Ferraro - gferra02
 
 ## The Problem
 
