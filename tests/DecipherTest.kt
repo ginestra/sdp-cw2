@@ -24,6 +24,7 @@ class DecipherTest {
         assertEquals(calculateFrequencyScore("Ifmmp Xpsme"), 122)
         assertEquals(calculateFrequencyScore("The quick brown fox jumps over the lazy dog"), 515)
         assertEquals(calculateFrequencyScore("Can't rain all the time"), 340)
+        assertEquals(calculateFrequencyScore("Gcsdfthgh dfGe"), 198)
         assertEquals(calculateFrequencyScore("I love the smell of napalm in the morning"), 587)
         assertEquals(calculateFrequencyScore("Eezzewsd jughj ghuiorits"), 338)
     }
