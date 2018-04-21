@@ -1,5 +1,11 @@
 package cipher
 
+/**
+ * Takes a string that has had all the characters contained in the English
+ * alphabet rotated by a certain offset (see `encipher`), and attempts to
+ * return the original un-rotated value. Assumes original value consisted of
+ * words contained in the English language.
+ */
 fun decipher(str: String): String {
     // Generate every variation of the string
     val variations = Array(26,  { i -> encipher(str, i)})
