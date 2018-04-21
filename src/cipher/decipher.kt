@@ -38,3 +38,7 @@ fun calculateFrequencyScore(str: String): Int {
 
     return score;
 }
+
+fun main(args: Array<String>) {
+    println(calculateFrequencyScore("Can't rain all the time"))
+}
